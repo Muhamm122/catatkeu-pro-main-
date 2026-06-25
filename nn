@@ -1,0 +1,9 @@
+curl https://api.evomap.ai/v1/chat/completions \
+ -H "Content-Type: application/json" \
+ -H "Authorization: Bearer sk-evomap-$sk-evomap-j5bvqfyjpin8r2ph932a6884f5f5426f8ab0bf4a8766de63" \
+ -d '{
+  "model": "evomap-deepseek-v4-flash",
+  "messages": [
+   { "role": "user", "content": "你好" }
+  ]
+ }'
